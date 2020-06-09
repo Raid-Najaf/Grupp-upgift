@@ -101,7 +101,45 @@ p{
     margin: 25px auto 0;
     text-align: center;
 }
+.galleri{
+	background: #f3f1f1;
+}
 
+.galleri_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+.galleri_wrapper .team{
+	display: flex;
+	justify-content: space-between;
+}
+.galleri_wrapper .team-1.team{
+	margin-bottom: 25px;
+}
+.galleri_wrapper .team_members{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+.galleri_wrapper .team_members img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease;
+}
+.galleri_wrapper .team_members:hover img{
+	transform: scale(1.1);
+}
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 0;
+}
+.footer a{
+	color: #fff;
 }
 @media (max-width: 720px){
 
